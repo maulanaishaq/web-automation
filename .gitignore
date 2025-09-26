@@ -1,0 +1,47 @@
+# -------------------------------
+# Build & dependencies
+# -------------------------------
+/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# -------------------------------
+# IDE / Editor files
+# -------------------------------
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# VS Code
+.vscode/
+
+# -------------------------------
+# Logs & reports
+# -------------------------------
+*.log
+allure-results/
+allure-report/
+test-output/
+surefire-reports/
+.allure/
+
+
+# -------------------------------
+# OS generated files
+# -------------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------------
+# Env / secrets
+# -------------------------------
+.env
